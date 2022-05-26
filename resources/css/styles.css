@@ -351,6 +351,7 @@ h2 {
 /* Footer Section */
 
 footer {
+  display: flex;
   z-index: 100;
   width: 100%;
   border-top: solid 1px #c6c1c1;
@@ -384,4 +385,6 @@ footer nav {
 
 footer nav li {
   display: inline-flex;
+  padding: 0.5rem;
 }
+
